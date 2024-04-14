@@ -200,6 +200,11 @@ def astar_search(domain_file, problem_file):
             
             for action in applicable_actions(list(current_state), actions):
                 new_state = tuple(apply_action(list(current_state), action))
+                if set(goal_state).issubset(set(new_state)):
+                    print("Objectif atteint !")
+                    came_from[new_state] = (current_state, action)
+                    return reconstruct_path(came_from, init_state_tuple, goal_state_tuple)
+                    
                 new_cost = current_cost + 1  
                 if new_state not in cost_so_far or new_cost < cost_so_far[new_state]:
                     cost_so_far[new_state] = new_cost
