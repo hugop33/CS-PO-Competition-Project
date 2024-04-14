@@ -49,13 +49,13 @@ Le programme affichera le nombre d'actions dans le plan trouvé, le temps d'exé
 | Config | Nombre d'actions dans le plan | Temps d'exécution (secondes) | Plan valide |
 | --- | --- | --- | --- |
 | taquin-size2x2-conf_0.pddl | 4 | 0.08 | Oui |
-| taquin-size3x3-conf_0.pddl | 28 | 38.47 | Oui |
-| taquin-size3x3-conf_1.pddl | 22 | 30.56 | Oui |
-| taquin-size3x3-conf_2.pddl |  |  |  |
-| taquin-size3x3-conf_3.pddl |  |  |  |
-| taquin-size3x3-conf_4.pddl |  |  |  |
-| taquin-size3x3-conf_5.pddl |  |  |  |
+| taquin-size3x3-conf_0.pddl | 28 | 32.86 | Oui |
+| taquin-size3x3-conf_1.pddl | 22 | 29.13 | Oui |
+| taquin-size3x3-conf_2.pddl |  |  | Non |
+| taquin-size3x3-conf_3.pddl | 28 | 201.79 | Oui |
+| taquin-size3x3-conf_4.pddl | 18 | 67.59 | Oui |
+| taquin-size3x3-conf_5.pddl | 28 | 214.54 | Oui |
 | taquin-size3x3-conf_6.pddl | 22 | 72.37 | Oui |
-| taquin-size3x3-conf_7.pddl |  |  |  |
-| taquin-size3x3-conf_8.pddl |  |  |  |
-| taquin-size3x3-conf_9.pddl |  |  |  |
+| taquin-size3x3-conf_7.pddl |  |  | Non |
+| taquin-size3x3-conf_8.pddl | 20 | 289.47 | Oui |
+| taquin-size3x3-conf_9.pddl |  |  | Non |
